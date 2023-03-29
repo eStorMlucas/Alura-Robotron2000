@@ -80,13 +80,13 @@ main {
 }
 
 .peca {
-    padding: 1em 0;
+    padding: .7em 0;
 }
 
 .peca-titulo {
     color: var(--main-branco);
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .controle {
