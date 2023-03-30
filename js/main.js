@@ -65,12 +65,10 @@ function manipulaDados(conteudo, controle, peca) {
 
 robo.addEventListener("click", () => {
     contaCor += 1
-    console.log(contaCor)
 
-    if (contaCor < 5) {
-        robo.attributes.src.value = "img/robotron/" + dataCores[contaCor] + ".png"
-    } else {
+    if (contaCor >= 5) {
         contaCor = 0
-        robo.attributes.src.value = "img/robotron/" + dataCores[contaCor] + ".png"
-    }
+    } 
+   
+    robo.attributes.src.value = "img/robotron/" + dataCores[contaCor] + ".png"
 })
