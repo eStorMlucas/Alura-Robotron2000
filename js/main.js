@@ -1,8 +1,7 @@
-const robo = document.querySelector("#robotron")
+const robo = document.querySelector("[data-cor]")
 const controle = document.querySelectorAll("[data-controle]")
 const estatisticas = document.querySelectorAll("[data-estatistica]")
 var dataCores = ["branco", "rosa", "vermelho", "amarelo", "azul"]
-var contaCor = 0
 
 const pecas = {
     "bracos": {
@@ -64,11 +63,11 @@ function manipulaDados(conteudo, controle, peca) {
 }
 
 robo.addEventListener("click", () => {
-    contaCor += 1
+    robo.dataset.cor = parseInt(robo.dataset.cor) + 1
 
-    if (contaCor >= 5) {
-        contaCor = 0
+    if (robo.dataset.cor >= 5) {
+        robo.dataset.cor = 0
     } 
    
-    robo.attributes.src.value = "img/robotron/" + dataCores[contaCor] + ".png"
+    robo.attributes.src.value = "img/robotron/" + dataCores[robo.dataset.cor] + ".png"
 })
