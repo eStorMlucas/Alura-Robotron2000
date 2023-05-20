@@ -1,6 +1,6 @@
 # Robotron-2000
 
-A course provided by **Alura** that was taught by **Pedro Marins**: ['Click Here to Access'](https://cursos.alura.com.br/course/javascript-manipulando-dom)
+A course provided by **Alura** that was taught by **Pedro Marins**: <a href="https://cursos.alura.com.br/course/javascript-manipulando-dom" target="_blank"> Click here to access</a>
 
 # Interface Preview
 ![Site Screenshot](img/RobotronScreenshot.png)
