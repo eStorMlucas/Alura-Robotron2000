@@ -10,7 +10,7 @@ A course provided by **Alura** that was taught by **Pedro Marins**: <a href="htt
 > The concept is to build the **Robotron 2000**, a war robot created to protect the earth against aliens, and there's a logical defiance to build the robot with their equipment, because all of them have particular stats that can increase or decrease the **Robotron 2000's** overall stats.
 >
 > ### Major Knowledge 
-> - Introduce and apply the concepts of DOM Manipulation with `dataset`.
+> - Apply the concepts of DOM Manipulation with `dataset`.
 
 ## My Changes 
 
